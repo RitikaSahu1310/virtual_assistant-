@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useContext } from 'react'
-import { userdataContext } from '../context/userContext'
+import { userdataContext } from '../context/UserContext'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import aiImg from "../assets/assistantGif.mp4"
