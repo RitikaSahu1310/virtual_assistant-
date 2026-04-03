@@ -42,7 +42,9 @@ const userdataContext = createContext()
 
 function UserContext({ children }) {
 
-  const serverUrl = "http://localhost:8000"
+  const serverUrl = "https://virtual-assistant-backend-28ch.onrender.com
+
+"
   const [userData, setUserdata] = useState(null)
   const [frontendImage,setFrontendImage]=useState(null)
   const [backendImage,setBackendImage]=useState(null)
