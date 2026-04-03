@@ -3,7 +3,7 @@ import bg from "../assets/authBg.jpeg";
 import { FaEye } from "react-icons/fa6";
 import { FaEyeSlash } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
-import { userdataContext } from "../context/userContext";
+import { userdataContext } from "../context/UserContext";
 import axios from "axios";
 
 
